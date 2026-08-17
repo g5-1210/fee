@@ -1,0 +1,102 @@
+<!--
+Layout of a web page is similar to the plan (naksha) of a flat.
+Just like different areas of a flat are assigned for the kitchen,
+room, balcony, etc., different areas of a web page are assigned
+to elements like div, section, article, etc.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Sneha">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Layout</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-size: 1.2rem;
+            color: white;
+        }
+
+        body {
+            min-height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header contains the navigation area -->
+    <header style="
+        padding: 10px;
+        height: 10vh;
+        background-color: #23345D;
+        display: flex;
+        align-items: center;">
+
+        <nav>
+            Header having Navigation Links.
+        </nav>
+
+    </header>
+
+
+    <!-- Section contains the main parts of the page -->
+    <section style="
+        display: flex;
+        justify-content: space-between;">
+
+        <!-- Sidebar for additional content or links -->
+        <aside style="
+            padding: 10px;
+            height: 80vh;
+            width: 20%;
+            background-color: #C95F6A;">
+
+            Sidebar
+
+        </aside>
+
+
+        <!-- Main area contains the primary page content -->
+        <main style="
+            padding: 10px;
+            height: 80vh;
+            width: 65%;
+            background-color: #A9C0B4;">
+
+            Main
+
+        </main>
+
+
+        <!-- Article area for related or supporting content -->
+        <article style="
+            padding: 10px;
+            height: 80vh;
+            width: 15%;
+            background-color: #4C929E;">
+
+            Article
+
+        </article>
+
+    </section>
+
+
+    <!-- Footer appears at the bottom of the page -->
+    <footer style="
+        padding: 10px;
+        height: 10vh;
+        background-color: #23345D;">
+
+        Footer
+
+    </footer>
+
+</body>
+</html>

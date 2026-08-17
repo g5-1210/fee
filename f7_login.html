@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Sneha">
+    <meta name="Description" content="This is a login page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login Page</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background-color: #C9D8D0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section {
+            width: 350px;
+            background-color: #FFFDF8;
+            padding: 28px;
+            border: 2px solid #C8D5D0;
+            border-radius: 15px;
+            box-shadow: 0px 10px 25px rgba(51, 78, 104, 0.18);
+        }
+
+        h2 {
+            color: #334E68;
+            margin-bottom: 25px;
+            font-size: 35px;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Labels keep the input fields easy to identify */
+        label {
+            color: #334E68;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            background-color: #F4F7F6;
+            border: 2px solid #C8D5D0;
+            border-radius: 8px;
+            font-size: 16px;
+            outline: none;
+        }
+
+        /* Submit button for sending the login form */
+        input[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            margin-top: 5px;
+            background-color: #52796F;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <section>
+
+        <form>
+
+            <h2>Login</h2>
+
+            <label for="email">Email</label>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+            >
+
+            <label for="password">Password</label>
+
+            <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter your password"
+                required
+            >
+
+            <input
+                type="submit"
+                value="Submit"
+            >
+
+        </form>
+
+    </section>
+
+</body>
+</html>

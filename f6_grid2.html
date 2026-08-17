@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Sneha">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Grid Layout</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            min-height:100dvh;
+            font-family:"Courgette", sans-serif;
+            font-size:16px;
+            background-color:#D9EAF2;
+            color:white;
+        }
+
+        .Box{
+            background-color:#356F8F;
+            color:white;
+            padding:1rem;
+        }
+
+        .gc{
+            display:grid;
+            gap:0.5rem;
+
+            /* Sets the width of each column */
+            grid-template-columns:150px 250px;
+
+            /* Sets the height of each row */
+            grid-template-rows:repeat(3,150px);
+
+            /* Keeps the complete grid in the center */
+            place-content:center;
+
+            background-color:#D9EAF2;
+        }
+
+        #m1{
+            background-color:#356F8F;
+        }
+
+        #m2{
+            background-color:#3F829D;
+        }
+
+        #m3{
+            background-color:#4A9188;
+        }
+
+        #m4{
+            background-color:#356F8F;
+        }
+
+        #m5{
+            background-color:#3F829D;
+        }
+
+        #m6{
+            background-color:#E07A5F;
+        }
+
+
+        @media(min-width:767px){
+
+            .gc{
+                display:grid;
+                gap:0.5rem;
+
+                /* Grid changes to three columns on larger screens */
+                grid-template-columns:200px 200px 200px;
+
+                /* Two rows are used for the layout */
+                grid-template-rows:repeat(2,200px);
+
+                place-content:center;
+            }
+
+        }
+
+
+        @media(min-width:1024px){
+
+            .gc{
+                grid-template-columns:repeat(4,250px);
+                grid-template-rows:repeat(2,200px);
+            }
+
+            /* Last content takes space across the remaining columns */
+            #m6{
+                grid-column:2/-1;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <section class="Box" style="height:10vh">
+        <span style="font-size:2.5rem; margin-right:1rem">&#9812;</span>
+        Header/Navbar
+    </section>
+
+    <section class="Box gc" style="height:80vh">
+
+        <main class="Box" id="m1">Content 1</main>
+        <main class="Box" id="m2">Content 2</main>
+        <main class="Box" id="m3">Content 3</main>
+        <main class="Box" id="m4">Content 4</main>
+        <main class="Box" id="m5">Content 5</main>
+        <main class="Box" id="m6">Content 6</main>
+
+    </section>
+
+    <section class="Box" style="height:10vh">
+        <span style="font-size:2.5rem; margin-right:1rem">&#9776;</span>
+        Footer
+    </section>
+
+</body>
+
+</html>

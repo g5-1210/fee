@@ -1,0 +1,24 @@
+Q1. What do you know about functions?
+-A function is a reusable block of code
+-It is used to perform a specific task
+-It saves time and makes code organized (recursive and callback functions)
+
+Q2. What is layout?
+-A layout is a map or basic structure of the way elements are arranged on a webpage
+-It helps organize content in a neat and structured way
+-It improves the website's appearance and user experience
+
+Q3. What do you know about Flex Layout?
+-Flexbox is a 1D layout system consisting of rows and cols
+-It is used to align and distribute items easily
+-It helps create responsive and flexible designs for various types of devices
+
+Q4. What is the need of Grid Layout?
+-Grid is used for 2D layouts made of rows and cols
+-It makes complex webpage designs easier to create.
+-It provides better control over the placement of elements.
+
+Q5. What is the use of GitHub?
+-Platform to store and manage code online, can be helful with opensource projects.
+-It helps developers collaborate on projects
+-It also keeps track of code changes using Git
