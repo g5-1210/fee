@@ -1,0 +1,22 @@
+Short Answers (Max 30 words)
+
+Q1. What is DOM?
+DOM is also known as Document Object Model. It is used to make the website user interactive and responsive using stuff like buttons, forms, and other elements.
+
+Q2. What are 5 DOM Manipulation Functions?
+Five DOM manipulation functions are:
+getElementById() 
+querySelector()
+createElement()
+appendChild()
+removeChild()
+
+Q3. What is meaning of Asynchronous Operations?
+Asynchronous functions, by name, mean functions that are not in sync. They allow a function to execute without waiting, like using setTimeout() for a particular time interval.
+
+Q4. What is Virtual DOM?
+Virtual DOM is a type of DOM used in JavaScript. It is basically a lightweight copy of the actual DOM, which is easy to handle and update.
+
+Q5. How React responds fast to user actions?
+React responds fast to user actions by using Virtual DOM. It detects the changes and updates only the required parts instead of updating the whole DOM.
+
