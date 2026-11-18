@@ -1,0 +1,19 @@
+Order Of Importance:
+UI/UX
+CSS
+JavaScript (JS)
+React Components
+Props
+State
+Functions
+Forms & onSubmit
+React Router
+Global State
+Zustand
+Validation
+onClick & Buttons
+Links
+Multi-page Applications
+Nested Routes
+Filter
+Map

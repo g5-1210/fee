@@ -1,0 +1,12 @@
+APIs enable frontend-backend communication through client-server architecture and Axios handles HTTP requests (GET, POST, PUT, DELETE) to fetch, send, and manage server data.
+
+KeyWords:
+API 
+AXIOS 
+CLIENT SERVER ARCHITECTURE
+
+Arrow Function Provides concise function syntax and is commonly used in callbacks, array methods, and event handlers to execute operations efficiently.
+
+KeyWords:
+ARROW FUNCTION 
+MAP

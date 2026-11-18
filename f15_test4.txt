@@ -1,0 +1,9 @@
+Importance of UI
+UI means User Interface and UX means User experience. It focuses on creating visually appealing, user-friendly, and responsive interfaces that improve user experience. 
+CSS and JavaScript bring designs to life, while React simplifies development through Components, Props, State, and Functions. Forms, Validation, onSubmit, onClick, Buttons, Links, React Router, Nested Routes, Multi-page Applications, Global State, Zustand, Filter, and Map enable interactive, dynamic, and seamless web applications.
+
+UI/UX design helps in the following using modern React technologies: 
+Responsive
+Interactive
+User-friendly web experiences 
+
